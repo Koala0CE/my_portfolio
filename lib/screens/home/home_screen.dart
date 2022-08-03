@@ -1,4 +1,6 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
+import 'package:my_portfolio/constants.dart';
 import 'package:my_portfolio/screens/main/main_screen.dart';
 
 import 'components/heighlights.dart';
@@ -11,6 +13,8 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return MainScreen(
+      children: [HomeBanner()],
+    );
   }
 }
