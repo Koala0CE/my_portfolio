@@ -18,7 +18,7 @@ class AnimatedCounter extends StatelessWidget {
       tween: IntTween(begin: 0, end: value),
       duration: defaultDuration,
       builder: (context, value, child) => Text(
-        "$value+$text",
+        "$value$text",
         style: Theme.of(context)
             .textTheme
             .headline6!
