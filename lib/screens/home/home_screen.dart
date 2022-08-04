@@ -1,6 +1,7 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/constants.dart';
+import 'package:my_portfolio/models/project.dart';
 import 'package:my_portfolio/screens/main/main_screen.dart';
 
 import '../../components/animated_counter.dart';
@@ -19,6 +20,7 @@ class HomeScreen extends StatelessWidget {
       children: [
         HomeBanner(),
         HighLightInfo(),
+        MyProjects(),
       ],
     );
   }
