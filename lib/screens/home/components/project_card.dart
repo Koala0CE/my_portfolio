@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../constants.dart';
 import '../../../models/project.dart';
+import '../../../responsive.dart';
 
 class MyProjectsCard extends StatelessWidget {
   const MyProjectsCard({
@@ -28,7 +29,7 @@ class MyProjectsCard extends StatelessWidget {
           Spacer(),
           Text(
             projects.description!,
-            maxLines: 4,
+            maxLines: Responsive.isMobileLarge(context) ? 3 : 4,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(height: 1.5),
           ),
