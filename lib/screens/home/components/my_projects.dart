@@ -20,7 +20,7 @@ class MyProjects extends StatelessWidget {
           style: Theme.of(context).textTheme.headline6,
         ),
         const SizedBox(height: defaultPadding),
-        Responsive(
+        const Responsive(
           mobile: ProjectGridView(
             crossAxisCount: 1,
             childAspectRatio: 1.7,
@@ -47,7 +47,7 @@ class ProjectGridView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GridView.builder(
-      physics: NeverScrollableScrollPhysics(),
+      physics: const NeverScrollableScrollPhysics(),
       shrinkWrap: true,
       itemCount: demo_projects.length,
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
