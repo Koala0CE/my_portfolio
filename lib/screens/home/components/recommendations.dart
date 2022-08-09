@@ -18,10 +18,10 @@ class Recommendations extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            "Recommendations",
+            "Hobbies: Painting and Drawing & Video Games",
             style: Theme.of(context).textTheme.headline6,
           ),
-          SizedBox(height: defaultPadding),
+          const SizedBox(height: defaultPadding),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
             child: Row(

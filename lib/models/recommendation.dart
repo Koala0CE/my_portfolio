@@ -7,17 +7,17 @@ class Recommendation {
 final List<Recommendation> demo_recommendations = [
   Recommendation(
     name: "Name",
-    source: "Linkedin",
+    source: "",
     text: "",
   ),
   Recommendation(
     name: "Name",
-    source: "Linkedin",
+    source: "",
     text: "",
   ),
   Recommendation(
     name: "Name",
-    source: "Linkedin",
+    source: "",
     text: "",
   ),
 ];

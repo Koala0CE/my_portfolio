@@ -19,7 +19,7 @@ class HighLightInfo extends StatelessWidget {
               children: [
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
+                  children: const [
                     HighLight(
                       counter: AnimatedCounter(
                         value: 10,
@@ -36,10 +36,10 @@ class HighLightInfo extends StatelessWidget {
                     ),
                   ],
                 ),
-                SizedBox(height: defaultPadding),
+                const SizedBox(height: defaultPadding),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
+                  children: const [
                     HighLight(
                       counter: AnimatedCounter(
                         value: 10,
@@ -60,7 +60,7 @@ class HighLightInfo extends StatelessWidget {
             )
           : Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
+              children: const [
                 HighLight(
                   counter: AnimatedCounter(
                     value: 10,
