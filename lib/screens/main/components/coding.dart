@@ -13,7 +13,7 @@ class Coding extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Divider(),
+        const Divider(),
         Padding(
           padding: const EdgeInsets.symmetric(vertical: defaultPadding),
           child: Text(
@@ -21,27 +21,31 @@ class Coding extends StatelessWidget {
             style: Theme.of(context).textTheme.subtitle2,
           ),
         ),
-        AnimatedLinearProgressIndicator(
+        const AnimatedLinearProgressIndicator(
           percentage: 0.84,
           label: "Dart",
         ),
-        AnimatedLinearProgressIndicator(
+        const AnimatedLinearProgressIndicator(
+          percentage: 0.80,
+          label: "React Typescript",
+        ),
+        const AnimatedLinearProgressIndicator(
           percentage: 0.77,
           label: "C#",
         ),
-        AnimatedLinearProgressIndicator(
+        const AnimatedLinearProgressIndicator(
           percentage: 0.75,
           label: "C++",
         ),
-        AnimatedLinearProgressIndicator(
+        const AnimatedLinearProgressIndicator(
           percentage: 0.52,
           label: "Java",
         ),
-        AnimatedLinearProgressIndicator(
+        const AnimatedLinearProgressIndicator(
           percentage: 0.41,
           label: "Python",
         ),
-        AnimatedLinearProgressIndicator(
+        const AnimatedLinearProgressIndicator(
           percentage: 0.22,
           label: "React-native",
         ),
